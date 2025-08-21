@@ -4,7 +4,7 @@ import Weather from "./components/Weather";
 function App() {
   return (
     <div className="app">
-      <Weather />
+      <Weather Humidity="Humidity" WindSpeed="Wind Speed" />
     </div>
   );
 }
